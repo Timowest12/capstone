@@ -149,7 +149,7 @@ ul {
 }
 
 .programul > li {
-    margin: 2px;
+  margin: 2px;
   max-width: 13%;
   padding: 10px;
   backdrop-filter: blur(4px);
@@ -159,6 +159,10 @@ ul {
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+}
+
+.speakerright > * {
+  margin: 0;
 }
 
 .programul > li > * {
@@ -174,59 +178,66 @@ ul {
 .programtext {
   font-size: 13px;
 }
-.programlinkwrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 45px;
+
+.programlinkwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 45px;
 }
-.programlink{
-    color: whitesmoke;
+
+.programlink {
+  color: whitesmoke;
 }
-.progicons{
-    display: none;
+
+.progicons {
+  display: none;
 }
-.speakers{
-    padding:0 200px;
-    display: flex;
-    flex-wrap: wrap;
+
+.speakers {
+  padding: 0 200px;
+  display: flex;
+  flex-wrap: wrap;
 }
-.speaker{
-    padding:20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 50%;
+
+.speaker {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 50%;
 }
-.speakername{
-    font-size: 25px;
+
+.speakername {
+  font-size: 25px;
 }
-.speakerleft{
-    padding-left:20px;
-    padding-top:20px;
-    background-image: url("../assets/images/transparant.png");
-    background-repeat: no-repeat;
-    background-size: 80px;
+
+.speakerleft {
+  padding-left: 20px;
+  padding-top: 20px;
+  background-image: url("../assets/images/transparant.png");
+  background-repeat: no-repeat;
+  background-size: 80px;
 }
-.speakerright{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding:10px;
+
+.speakerright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
 }
-.speakerright > *{
-    
-    margin: 0px;
+
+.speakerhr {
+  width: 20px;
+  background-color: gray;
 }
-.speakerhr{
-    width:20px;
-    background-color: gray;
+
+.speakertitle {
+  color: var(--orange);
+  font-style: italic;
+  font-size: 10px;
 }
-.speakertitle{
-    color:var(--orange);
-    font-style: italic;
-    font-size: 10px;
-}
-.speakerfunction{
-    font-size:10px;
+
+.speakerfunction {
+  font-size: 10px;
 }
