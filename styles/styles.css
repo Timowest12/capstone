@@ -241,70 +241,84 @@ ul {
 .speakerfunction {
   font-size: 10px;
 }
-.small{
+
+.small {
   display: none;
 }
+
 @media only screen and (max-width: 768px) {
   .programul {
     flex-direction: column;
   }
-  .programul > li{
+
+  .programul > li {
     max-width: 90%;
     flex-direction: row;
   }
-  .programul > li > *{
-    padding:10px;
+
+  .programul > li > * {
+    padding: 10px;
   }
-  .speakers{
-    padding:10px;
+
+  .speakers {
+    padding: 10px;
   }
-  .speaker{
+
+  .speaker {
     max-width: 100%;
   }
-  .secmenuright{
+
+  .secmenuright {
     flex-direction: column;
   }
-  .secmenu{
+
+  .secmenu {
     flex-direction: column;
+    padding: 20px;
+    width: 100vw;
   }
-  .maincontent{
-    padding:10px;
+
+  .maincontent {
+    padding: 10px;
   }
-  .topnavbar{
+
+  .topnavbar {
     display: none;
   }
-  .logoli{
+
+  .logoli {
     display: none;
   }
-  .secnavbar{
+
+  .secnavbar {
     position: absolute;
-    top: 0px;
-    left:0px;
+    top: 0;
+    left: 0;
   }
-  .secnavbar > ul{
+
+  .secnavbar > ul {
     background-color: hotpink;
-    padding:0;
+    padding: 0;
     height: 100vh;
     display: none;
   }
-  .secmenu{
-   
-    padding:20px;
-    width: 100vw;
+
+  .secmenu > li {
+    padding: 20px 0;
   }
-  .secmenu > li{
-    padding:20px 0;
+
+  .hamburger {
+    padding: 10px;
   }
-  .hamburger{
-    padding:10px;
-  }
+
   .hamburger > div {
     width: 35px;
     height: 5px;
     background-color: black;
     margin: 6px 0;
   }
-  .small{
-    display:block;
+
+  .small {
+    display: block;
   }
 }
