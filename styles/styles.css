@@ -78,12 +78,17 @@ ul {
   background-color: inherit;
   padding: 10px;
 }
-
+.main{
+  background-image: url('../assets/images/gradientchess.png');
+}
 .maincontent {
   padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 200px;
-  background-color: rgb(248, 233, 233);
+  background-color: rgba(218, 217, 221, 0.952);
   min-height: 70vh;
+  
+  color: black;
 }
 
 .sharing {
@@ -96,6 +101,11 @@ ul {
   line-height: 63px;
   color: var(--orange);
   font-size: 60px;
+  
+  -webkit-text-fill-color: rgba(200, 0, 0, 0.459);
+  -webkit-background-clip: text;
+  background-image: url('../assets/images/speaker1.png');
+  background-blend-mode: darken;
 }
 
 .blocktext {
@@ -293,17 +303,19 @@ ul {
   .secnavbar {
     position: absolute;
     top: 0;
-    left: 0;
+    max-width: -webkit-fill-available;
+    display: none;
+    overflow-x: hidden;
   }
 
   .secnavbar > ul {
-    background-color: hotpink;
+    background-color: var(--gray);
     padding: 0;
     height: 100vh;
-    display: none;
   }
 
   .secmenu > li {
+    box-sizing: content-box;
     padding: 20px 0;
   }
 
@@ -320,5 +332,21 @@ ul {
 
   .small {
     display: block;
+  }
+  .programul{
+    padding:0;
+    align-items: center;
+  }
+  .ccbutton{
+    border:0;
+    margin:0%;
+    padding:0;
+  }
+  .closebutton{
+    font-size: 250%;
+    padding:15px;
+    position: absolute;
+    top: 5px;
+    left:5px;
   }
 }

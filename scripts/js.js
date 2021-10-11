@@ -49,3 +49,14 @@ for (let x = 0; x < speakers.length; x += 1) {
   const speaker = speakers[x];
   speakersoutput.innerHTML += `<div class='speaker'><div class='speakerleft'><img src='assets/images/${speaker.image}'></div><div class='speakerright'><p class='speakername'>${speaker.name}</p><p class='speakertitle'>${speaker.title}</p><hr class='speakerhr'><p class='speakerfunction'>${speaker.function}</p></div></div>`;
 }
+const hamburgerbutton = document.querySelector('.hamburger');
+const secmenu = document.querySelector('.secnavbar');
+const closebutton = document.querySelector('.closebutton');
+function showmenu(){
+   secmenu.style.display = 'block';
+}
+function closemenu(){
+   secmenu.style.display = 'none';
+}
+hamburgerbutton.addEventListener('click',showmenu);
+closebutton.addEventListener('click',closemenu);
