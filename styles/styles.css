@@ -101,7 +101,7 @@ ul {
   line-height: 63px;
   color: var(--orange);
   font-size: 60px;
-  
+  font-weight:800;
   -webkit-text-fill-color: rgba(200, 0, 0, 0.459);
   -webkit-background-clip: text;
   background-image: url('../assets/images/chess.jpg');
