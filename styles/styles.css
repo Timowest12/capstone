@@ -241,3 +241,55 @@ ul {
 .speakerfunction {
   font-size: 10px;
 }
+@media only screen and (max-width: 768px) {
+  .programul {
+    flex-direction: column;
+  }
+  .programul > li{
+    max-width: 90%;
+    flex-direction: row;
+  }
+  .programul > li > *{
+    padding:10px;
+  }
+  .speakers{
+    padding:10px;
+  }
+  .speaker{
+    max-width: 100%;
+  }
+  .secmenuright{
+    flex-direction: column;
+  }
+  .secmenu{
+    flex-direction: column;
+  }
+  .maincontent{
+    padding:10px;
+  }
+  .topnavbar{
+    display: none;
+  }
+  .logoli{
+    display: none;
+  }
+  .secnavbar{
+    position: absolute;
+    top: 0px;
+    left:0px;
+  }
+  .secnavbar > ul{
+    background-color: hotpink;
+    padding:0;
+    height: 100vh;
+    display: none;
+  }
+  .secmenu{
+   
+    padding:20px;
+    width: 100vw;
+  }
+  .secmenu > li{
+    padding:20px 0;
+  }
+}
