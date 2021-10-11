@@ -85,7 +85,7 @@ ul {
   padding-top: 50px;
   padding-bottom: 60px;
   padding-left: 200px;
-  background-color: rgba(218, 217, 221, 0.952);
+  
   min-height: 70vh;
   
   color: black;
@@ -104,8 +104,9 @@ ul {
   
   -webkit-text-fill-color: rgba(200, 0, 0, 0.459);
   -webkit-background-clip: text;
-  background-image: url('../assets/images/speaker1.png');
+  background-image: url('../assets/images/chess.jpg');
   background-blend-mode: darken;
+  background-size: 150px;
 }
 
 .blocktext {
