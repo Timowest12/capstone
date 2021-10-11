@@ -241,6 +241,9 @@ ul {
 .speakerfunction {
   font-size: 10px;
 }
+.small{
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .programul {
     flex-direction: column;
@@ -291,5 +294,17 @@ ul {
   }
   .secmenu > li{
     padding:20px 0;
+  }
+  .hamburger{
+    padding:10px;
+  }
+  .hamburger > div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .small{
+    display:block;
   }
 }
