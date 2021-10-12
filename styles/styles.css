@@ -41,9 +41,11 @@ ul {
 .topnavbaricons > li {
   padding: 7px;
 }
-.secnavbar{
+
+.secnavbar {
   box-shadow: 10px 10px;
 }
+
 .secnavbar > ul {
   height: 50px;
   display: flex;
@@ -98,10 +100,12 @@ ul {
   color: var(--orange);
   font-size: 27px;
 }
-.aoutlink{
+
+.aoutlink {
   text-decoration: none;
- color:black;
+  color: black;
 }
+
 .creative {
   font-family: 'COCOGOOSE', sans-serif;
   line-height: 63px;
@@ -113,7 +117,6 @@ ul {
   background-image: url('../assets/images/chess.jpg');
   background-blend-mode: darken;
   background-size: 150px;
-  
 }
 
 .blocktext {
@@ -141,7 +144,7 @@ ul {
   background-size: 18px 18px;
   background-repeat: repeat;
   color: whitesmoke;
-  min-height: 50vh;
+  
 }
 
 .announce {
@@ -209,8 +212,7 @@ ul {
 }
 
 .progicon {
-  
-  height:50px;
+  height: 50px;
 }
 
 .speakers {
@@ -264,100 +266,122 @@ ul {
 .small {
   display: none;
 }
-.footericonwrapper{
+
+.footericonwrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 80vw;
 }
+
 .footericonwrapper > * {
   max-width: 20%;
 }
-.partnerssec{
-  color:white;
+
+.partnerssec {
+  color: white;
   background-color: var(--black);
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
-.partners{
+
+.partners {
   margin-bottom: 50px;
 }
-.partners{
+
+.partners {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  padding:  0px 0;
+  padding: 0 0;
   padding-bottom: 50px;
-  
 }
+
 .partners > li{
-  
+
 }
-.partners > li > img{
+
+.partners > li > img {
   max-width: 100px;
 }
-.partnerwrapper > ul{
-  display:flex;
+
+.partnerwrapper > ul {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-.partnerli{
-  width: 20px;;
+
+.partnerli {
+  width: 20px;
 }
-.footerimg{
-  width:20px;
+
+.footerimg {
+  width: 20px;
 }
-.footerleft{
-  width:30%;
+
+.footerleft {
+  width: 30%;
   display: flex;
   flex: row;
   justify-content: center;
   align-items: center;
 }
-.footerleft{
-  width: 60%;;
-}
-.footerright{
+
+.footerleft {
   width: 60%;
 }
-footer{
+
+.footerright {
+  width: 60%;
+}
+
+footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.headtextwrapper{
+.headtextwrapper {
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
   justify-content: center;
-}
-.headtextwrapper{
- 
   background-size: 100%;
-  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:20px 100px;
 }
-.creativeabout{
-  background-size: auto;
-  background-size: red;
-  
+
+.creativeabout {
+  font-family: 'COCOGOOSE', sans-serif;
+  line-height: 63px;
+  color: var(--orange);
+  font-size: 60px;
+  font-weight: 300;
+  background-size: 150px;
+  text-align: center;
+  margin: 20px;
 }
-.abouttxtblock{
-  background-color: var(--gray);
-  padding:15px;
+
+.abouttxtblock {
+  background-color: white;
+  border:1px solid gray;
+  padding: 15px;
 }
-.mainabout{
+
+.mainabout {
   display: none;
 }
-.footerabout{
-  background-color:var(--black);
-  color:white
+
+.footerabout {
+  background-color: var(--black);
+  color: white;
 }
-.footer{
+
+.footer {
   padding-bottom: 50px;
 }
+
 @media only screen and (max-width: 768px) {
   .programul {
     flex-direction: column;
@@ -385,7 +409,6 @@ footer{
   .secmenuright {
     flex-direction: column;
   }
-
 
   .secmenu {
     flex-direction: column;
@@ -452,7 +475,8 @@ footer{
     top: 5px;
     left: 5px;
   }
-  .aoutlink{
-    padding:20px 0;
+
+  .aoutlink {
+    padding: 20px 0;
   }
 }
