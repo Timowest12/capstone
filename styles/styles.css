@@ -264,7 +264,10 @@ ul {
 .small {
   display: none;
 }
-
+.partners{
+  color:white;
+  background-color: var(--black);
+}
 @media only screen and (max-width: 768px) {
   .programul {
     flex-direction: column;
