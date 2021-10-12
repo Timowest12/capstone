@@ -325,6 +325,39 @@ footer{
   flex-direction: row;
   justify-content: space-between;
 }
+
+.headtextwrapper{
+  display: flex;
+  flex-direction: row;;
+  justify-content: center;
+}
+.headtextwrapper{
+ 
+  background-size: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creativeabout{
+  background-size: auto;
+  background-size: red;
+  
+}
+.abouttxtblock{
+  background-color: var(--gray);
+  padding:15px;
+}
+.mainabout{
+  display: none;
+}
+.footerabout{
+  background-color:var(--black);
+  color:white
+}
+.footer{
+  padding-bottom: 50px;
+}
 @media only screen and (max-width: 768px) {
   .programul {
     flex-direction: column;
@@ -352,6 +385,7 @@ footer{
   .secmenuright {
     flex-direction: column;
   }
+
 
   .secmenu {
     flex-direction: column;
