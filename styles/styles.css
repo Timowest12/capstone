@@ -41,7 +41,9 @@ ul {
 .topnavbaricons > li {
   padding: 7px;
 }
-
+.secnavbar{
+  box-shadow: 10px 10px;
+}
 .secnavbar > ul {
   height: 50px;
   display: flex;
@@ -81,12 +83,13 @@ ul {
 
 .main {
   background-image: url('../assets/images/gradientchess.png');
+  background-repeat: repeat-x;
 }
 
 .maincontent {
   padding-top: 50px;
   padding-bottom: 60px;
-  padding-left: 200px;
+  padding-left: 150px;
   min-height: 70vh;
   color: black;
 }
@@ -95,7 +98,10 @@ ul {
   color: var(--orange);
   font-size: 27px;
 }
-
+.aoutlink{
+  text-decoration: none;
+ color:black;
+}
 .creative {
   font-family: 'COCOGOOSE', sans-serif;
   line-height: 63px;
@@ -107,6 +113,7 @@ ul {
   background-image: url('../assets/images/chess.jpg');
   background-blend-mode: darken;
   background-size: 150px;
+  
 }
 
 .blocktext {
@@ -201,8 +208,9 @@ ul {
   color: whitesmoke;
 }
 
-.progicons {
-  display: none;
+.progicon {
+  
+  height:50px;
 }
 
 .speakers {
@@ -349,5 +357,8 @@ ul {
     position: absolute;
     top: 5px;
     left: 5px;
+  }
+  .aoutlink{
+    padding:20px 0;
   }
 }
