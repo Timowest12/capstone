@@ -43,7 +43,7 @@ ul {
 }
 
 .secnavbar {
-  box-shadow: 0 2px;
+  box-shadow: 0 1px;
   background-color: white;
 }
 
@@ -138,11 +138,9 @@ ul {
 }
 
 .program {
-  background-color: #000;
-  opacity: 0.9;
-  background-image: linear-gradient(135deg, #0e0e0e 25%, transparent 25%), linear-gradient(225deg, #0e0e0e 25%, transparent 25%), linear-gradient(45deg, #0e0e0e 25%, transparent 25%), linear-gradient(315deg, #0e0e0e 25%, #000 25%);
-  background-position: 18px 0, 18px 0, 0 0, 0 0;
-  background-size: 18px 18px;
+  
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+ 
   background-repeat: repeat;
   color: whitesmoke;
 }
@@ -155,6 +153,14 @@ ul {
   padding: 35px;
   font-size: 20px;
   padding-bottom: 5px;
+}
+.programm{
+  background-color: #111115;
+opacity: 0.8;
+background-image:  linear-gradient(135deg, #020202 25%, transparent 25%), linear-gradient(225deg, #020202 25%, transparent 25%), linear-gradient(45deg, #020202 25%, transparent 25%), linear-gradient(315deg, #020202 25%, #111115 25%);
+background-position:  10px 0, 10px 0, 0 0, 0 0;
+background-size: 10px 10px;
+background-repeat: repeat;
 }
 
 .announcehr {
