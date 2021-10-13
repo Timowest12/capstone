@@ -138,9 +138,7 @@ ul {
 }
 
 .program {
-  
   background-position: 10px 0, 10px 0, 0 0, 0 0;
- 
   background-repeat: repeat;
   color: whitesmoke;
 }
@@ -154,13 +152,14 @@ ul {
   font-size: 20px;
   padding-bottom: 5px;
 }
-.programm{
+
+.programm {
   background-color: #111115;
-opacity: 0.8;
-background-image:  linear-gradient(135deg, #020202 25%, transparent 25%), linear-gradient(225deg, #020202 25%, transparent 25%), linear-gradient(45deg, #020202 25%, transparent 25%), linear-gradient(315deg, #020202 25%, #111115 25%);
-background-position:  10px 0, 10px 0, 0 0, 0 0;
-background-size: 10px 10px;
-background-repeat: repeat;
+  opacity: 0.8;
+  background-image: linear-gradient(135deg, #020202 25%, transparent 25%), linear-gradient(225deg, #020202 25%, transparent 25%), linear-gradient(45deg, #020202 25%, transparent 25%), linear-gradient(315deg, #020202 25%, #111115 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
+  background-size: 10px 10px;
+  background-repeat: repeat;
 }
 
 .announcehr {
