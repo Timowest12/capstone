@@ -1,59 +1,45 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> One paragraph statement about the project.
+> Capstone projects
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This is my microverse module capstone project, a site that i created for a chess tournament.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Nodejs
+- NPM
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+The project is deployed using github pages.
 
+[Live Demo Link](https://timowest12.github.io/Portfolio/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+If you want to use this portfolio as a template, you can do so; follow the instructions below.
 
 ### Usage
 
-### Run tests
+Download it directly by ZIP, open the index file in a text editor, and you can change the content to match your own.
+If you would like to add your own projects, you can click on the button that says 'code' on the top of this repository, and clone it to your local machine. Or fork this repo and use it on Github.
+After downloading you can directly open the index.html file in any kind of text editor to make adjustments. Or open in a web browser to view your new site.
 
-### Deployment
-
-
+A pull request would be accepted if you can add nice fueteres, or have any othe good idea.
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Timowest12)
+- Twitter: [@twitterhandle](https://twitter.com/Timo61060367)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/timo-wester-6a0282a7/)
 
 ## 🤝 Contributing
 
@@ -64,12 +50,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
