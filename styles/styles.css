@@ -43,7 +43,8 @@ ul {
 }
 
 .secnavbar {
-  box-shadow: 10px 10px;
+  box-shadow: 0 2px;
+  background-color: white;
 }
 
 .secnavbar > ul {
@@ -144,7 +145,6 @@ ul {
   background-size: 18px 18px;
   background-repeat: repeat;
   color: whitesmoke;
-  
 }
 
 .announce {
@@ -154,6 +154,7 @@ ul {
   align-items: center;
   padding: 35px;
   font-size: 20px;
+  padding-bottom: 5px;
 }
 
 .announcehr {
@@ -161,6 +162,10 @@ ul {
   background-color: red;
   border: none;
   width: 50px;
+}
+
+.footericonwrapper > * {
+  max-width: 20%;
 }
 
 .programul {
@@ -274,10 +279,6 @@ ul {
   max-width: 80vw;
 }
 
-.footericonwrapper > * {
-  max-width: 20%;
-}
-
 .partnerssec {
   color: white;
   background-color: var(--black);
@@ -286,9 +287,6 @@ ul {
 
 .partners {
   margin-bottom: 50px;
-}
-
-.partners {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -297,8 +295,15 @@ ul {
   padding-bottom: 50px;
 }
 
-.partners > li{
+.lastspeakerswrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 150px;
+}
 
+.lastspeakerswrapper > img {
+  max-width: 40%;
 }
 
 .partners > li > img {
@@ -322,13 +327,9 @@ ul {
 .footerleft {
   width: 30%;
   display: flex;
-  flex: row;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-}
-
-.footerleft {
-  width: 60%;
 }
 
 .footerright {
@@ -339,17 +340,42 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  background-color: var(--black);
+  color: white;
 }
 
 .headtextwrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   background-size: 100%;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  padding:20px 100px;
+  padding: 5px 265px;
+}
+
+.about {
+  background-color: var(--gray);
+}
+
+.minabout {
+  text-align: center;
+  color: black;
+}
+
+.logobox {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.logoboxwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.aboutlogo {
+  max-height: 200px;
 }
 
 .creativeabout {
@@ -360,22 +386,32 @@ footer {
   font-weight: 300;
   background-size: 150px;
   text-align: center;
-  margin: 20px;
+  margin: 105px;
+  padding: 0;
 }
 
 .abouttxtblock {
+  width: 100%;
+  padding: 10px;
   background-color: white;
-  border:1px solid gray;
-  padding: 15px;
+  border: 1px solid gray;
+}
+
+.abtext {
+  font-size: 15px;
+  text-align: center;
+}
+
+.aboutseconondsecfs {
+  background-color: white;
+}
+
+.aboutseconondsec {
+  background-color: white;
 }
 
 .mainabout {
-  display: none;
-}
-
-.footerabout {
-  background-color: var(--black);
-  color: white;
+  background-color: green;
 }
 
 .footer {
@@ -434,6 +470,7 @@ footer {
     max-width: 100vw;
     display: none;
     overflow-x: hidden;
+    background-color: white;
   }
 
   .secnavbar > ul {
@@ -478,5 +515,13 @@ footer {
 
   .aoutlink {
     padding: 20px 0;
+  }
+
+  .headtextwrapper {
+    padding: 20px;
+  }
+
+  .aboutlogo {
+    max-width: 200px;
   }
 }
