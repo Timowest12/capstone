@@ -47,6 +47,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+##Acknowledgements
+
+https://www.cindyshin.com/ whose design template was used is used for this project.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
