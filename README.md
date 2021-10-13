@@ -17,9 +17,14 @@ This is my microverse module capstone project, a site that i created for a chess
 
 ## Live Demo
 
+explanation video:
+https://www.loom.com/share/9be9e71c09824f67ad244e16a35f8eca
+
+## Live Demo
+
 The project is deployed using github pages.
 
-[Live Demo Link](https://timowest12.github.io/Portfolio/)
+[Live Demo Link](https://timowest12.github.io/capstone/)
 
 ## Getting Started
 
@@ -47,7 +52,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-##Acknowledgements
+## Acknowledgements
 
 https://www.cindyshin.com/ whose design template was used is used for this project.
 
