@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+
 html,
 body,
 header,
@@ -291,7 +293,6 @@ ul {
 }
 
 .partners {
-  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -327,6 +328,10 @@ ul {
 
 .footerimg {
   width: 20px;
+}
+
+.nonexist {
+  display: none;
 }
 
 .footerleft {
@@ -417,10 +422,6 @@ footer {
 
 .mainabout {
   background-color: green;
-}
-
-.footer {
-  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -528,5 +529,13 @@ footer {
 
   .aboutlogo {
     max-width: 200px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .partnerwrapper > ul {
+    flex-direction: column;
   }
 }
