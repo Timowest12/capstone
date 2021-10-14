@@ -1,59 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+[](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 
-> One paragraph statement about the project.
+> Capstone projects
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This is my microverse module capstone project, a site that i created for a chess tournament.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Nodejs
+- NPM
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+explanation video:
+https://www.loom.com/share/9be9e71c09824f67ad244e16a35f8eca
 
+## Live Demo
+
+The project is deployed using github pages.
+
+[Live Demo Link](https://timowest12.github.io/capstone/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
+If you want to use this portfolio as a template, you can do so; follow the instructions below.
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
+If you would like to use this site for your own you can do so by downloading it at the top of this page as a zip, You can then unzip it and open it in a text or code editor to make the changes you like.
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Timowest12)
+- Twitter: [@twitterhandle](https://twitter.com/Timo61060367)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/timo-wester-6a0282a7/)
 
 ## 🤝 Contributing
 
@@ -61,15 +49,13 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Acknowledgements
+
+https://www.cindyshin.com/ whose design template was used is used for this project.
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
