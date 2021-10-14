@@ -34,7 +34,6 @@ If you want to use this portfolio as a template, you can do so; follow the instr
 
 If you would like to use this site for your own you can do so by downloading it at the top of this page as a zip, You can then unzip it and open it in a text or code editor to make the changes you like.
 
-A pull request would be accepted if you can add nice fueteres, or have any othe good idea.
 
 ## Authors
 
