@@ -34,10 +34,12 @@ ul {
   flex-direction: row;
   justify-content: space-around;
 }
-.normallink{
+
+.normallink {
   text-decoration: none;
-  color:black;
+  color: black;
 }
+
 .topnavbaricons {
   display: flex;
   flex-direction: row;
@@ -65,7 +67,8 @@ ul {
   max-height: 40px;
   padding: 15px;
 }
-.footlogo{
+
+.footlogo {
   max-height: 40px;
   padding: 15px;
 }
@@ -546,16 +549,20 @@ footer {
   .partnerwrapper > ul {
     flex-wrap: wrap;
   }
+
   .partnerwrapper > ul > li {
     margin: 15px;
   }
-  .creativeabout{
+
+  .creativeabout {
     margin: 0;
   }
-  .creative{
+
+  .creative {
     word-wrap: break-word;
   }
-  .maindate{
+
+  .maindate {
     word-wrap: break-word;
   }
 }
