@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="styles/styles.css" />
 
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
-    <style>
-      @import url("http://fonts.cdnfonts.com/css/cocogoose");
-    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,12 +31,12 @@
         <li>logout</li>
       </ul>
     </nav>
-    <nav class="secnavbar">
+    <nav id="secnavbar" class="secnavbar">
       <ul>
-        <li class="logoli">
-          <a href="index.html"><img class="logo" src="assets/images/logo.png" alt="" /></a>
-        </li>
-        <li><div class="secmenuright">
+        
+          <li><a href="index.html"><img class="logo" src="assets/images/logo.png" alt="" /><div class="logoli"></div></a>
+        
+        <li class="secmenuright">
           <ul class="secmenu">
             <li><div class="closebutton small"><i class="fas fa-times"></i></div></li>
             <li><a class="aoutlink" href="about.html">About</a></li>
@@ -49,9 +46,7 @@
             <li>News</li>
           </ul>
           <button class="ccbutton">cc campain</button>
-          </div>
         </li>
-        
       </ul>
     </nav>
   </header>
@@ -97,7 +92,7 @@
   <img src="assets/images/lastspeaker2.png" alt="lastspeaker2">
 </div>
   </section>
-
+<div class="speakers nonexist"></div>
 
 
   <section class="footer footerabout">
